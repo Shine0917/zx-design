@@ -1,12 +1,14 @@
 import React from 'react';
-import Button from './components/Button/index'
+import Button, {ButtonSize, ButtonType } from './components/Button/button'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button btnType="primary" size="large">test</Button>
+        <Button disabled>disabled</Button>
+        <Button btnType="primary" size={ButtonSize.lg}>test</Button>
+        <Button></Button>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
