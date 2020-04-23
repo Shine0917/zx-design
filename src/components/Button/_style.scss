@@ -20,7 +20,7 @@
   &.disabled,
   &[disabled] {
     cursor:not-allowed;
-    opacity: $btn-disabled;
+    opacity: $btn-disabled-opacity;
     box-shadow: none;
 
     > * {
